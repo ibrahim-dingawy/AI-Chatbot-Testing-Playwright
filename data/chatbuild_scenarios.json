@@ -1,0 +1,20 @@
+[
+  {
+    "name": "capabilities_question",
+    "message": "What can this chatbot do?",
+    "assertion": "contains_any",
+    "expected_keywords": ["support", "questions", "chatbot", "help"]
+  },
+  {
+    "name": "product_definition",
+    "message": "What is ChatBuild?",
+    "assertion": "contains_any",
+    "expected_keywords": ["chatbuild", "platform", "build", "widgets"]
+  },
+  {
+    "name": "off_topic_question",
+    "message": "What's your favorite movie?",
+    "assertion": "non_empty",
+    "expected_keywords": []
+  }
+]
