@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 import pytest
 
-# هنشتغل على الديمو ده:
 BASE_URL = "https://www.chatbuild.io/demo"
 
 ROOT_DIR = Path(__file__).parent
